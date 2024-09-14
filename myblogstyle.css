@@ -423,27 +423,7 @@ span.circle {
     
     /*Media queries for responsiveness*/
  /* For larger screens > 768px */
-  @media(min-width: 768px){
-    .image-blog{
-      flex: 1 1 30%;
-    }
 
-    .image-blog2{
-      flex: 1 1 30%;
-    }
-
-    .image-blog3{
-      flex: 1 1 30%;
-    }
-
-    nav {
-      width: 200px;           /* Smaller width for tablets */
-      padding: 15px;
-      margin-left: -200px;     /* Hidden by default */
-      transition: margin-left 0.3s;  /* Smooth slide-in effect */
-  }
-
-  }
 
 
   /* For small screens < 768px */
