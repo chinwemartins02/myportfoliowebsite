@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+
+        }
+        body{
+            background: seagreen;
+        }
+        .wrapper{
+            width: 400px;
+            height: 400px;
+            padding: 32px  16px;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0,20px,35px  rgba(0,0,0,.1);
+
+        }
+        h1{
+            font-size: 32px;
+            color: #07001f;
+            margin-bottom: 1.2rem;
+        }
+        form input{
+            width: 92%;
+            outline: none;
+            border: 1px solid #fff;
+            padding: 12px   20px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            background: #e4e4e4;
+
+        }
+        button{
+            font-size: 1rem;
+            margin-top: 1.8rem;
+            padding: 10px 0;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            width: 90%;
+            color: #fff;
+            cursor: pointer;
+            background: rgb(17,107,143);
+        }
+
+        button:hover{
+            background: red;
+
+        }
+        input:focus{
+            border: 1px solid rgb(192,192,192)
+        }
+
+        .terms{
+            margin-top: 0.2rem;
+
+        }
+
+        .terms input{
+            height: 1em;
+            width: 1em;
+            vertical-align: middle;
+            cursor: pointer;
+
+
+        }
+
+        .terms label{
+            font-size: 0.7rem;
+
+        }
+
+        .terms a{
+            color: rgb(17,107,145);
+            text-decoration: none;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Login</h1>
+        <form action="#">
+            <input type="text"  name="firstname"  placeholder="please enter firstname"
+            required>
+            <input type="text" name="secondname" placeholder="please enter secondname"
+            required>
+            <input type="password" name="password"  placeholder="please enter password"
+            required>
+
+        </form>
+        <div class="terms">
+            <input type="checkbox"  id="checkbox">
+            <label for="checkbox">I agree to these<a href="#"></a> terms & conditions</label>
+        </div>
+        
+        <button>Log in</button>
+        <br><br>
+        <div class="Member">Already a Member?<a href="./login.html">Login Here</a>
+
+        </div>
+    </div>
+</body>
+</html>
